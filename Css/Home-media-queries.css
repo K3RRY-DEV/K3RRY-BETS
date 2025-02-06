@@ -1,0 +1,47 @@
+@media  (max-width: 993px) {
+  /*HEADER STYLINGS*/
+  .header-container {
+    padding-left: 30px;
+  }
+  .nav-bar {
+    display: none;
+  }
+
+  .login-buttons {
+    display: flex;
+    margin-right: 25px;
+  }
+/* MOBILE BAR STYLING*/
+  .mobile-nav-bar {
+    display: flex;
+   
+  }
+}
+
+@media (max-width: 600px) {
+    /*HEADER STYLINGS*/
+  .header-container {
+    height: 110px;
+  }
+  .kh-logo {
+    max-width: 80px;
+    max-height: 80px
+  }
+
+  .login-buttons {
+    width: 30%;
+  }
+
+  .login,
+  .register {
+    padding: 3px 8px;
+  }
+
+  /* MOBILE BAR STYLING*/
+  .mobile-nav-bar {
+    height: 60px;
+  }
+  .mobile-nav-bar a {
+  font-size: 11px;
+  }
+}

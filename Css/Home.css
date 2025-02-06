@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height:100vh;
+  background:rgba(11, 12, 16,0.9);
+  position: relative;
+}
+
+/*HEADER STYLINGS*/
+.header-container {
+  height: 150px;
+  padding: 0px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 10px -8px #c5c6c7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.kh-logo {
+  max-height: 120px;
+  max-width: 120px;
+  border: 2px solid #66fcf1;
+  border-radius: 75px;
+}
+.mobile-nav-bar {
+  background-color: #66fcf1;
+  height: 80px;
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+.mobile-nav-bar a {
+  height: 100%;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0px 14px;
+  color: #1f2833;
+  cursor: pointer;
+}
+.mobile-nav-bar a:hover {
+  background-color: #45a29e;
+  font-weight: bold;
+}
+.mobile-span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-p {
+  margin-top: 8px;
+}
+.nav-bar {
+  width: 50%;
+}
+.nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-bar li {
+  list-style-type: none;
+  color: #fff;
+  transition: color 0.5s;
+}
+.nav-bar li:hover {
+  color: rgb(102, 252, 241);
+}
+.login-buttons {
+  width: 20%;
+  text-align: end;
+}
+.login {
+  background-color: #1f2833;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: 1px solid #45a29e;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+.login:hover {
+  background-color: #66fcf1;
+  color: #1f2833;
+}
+.register {
+  background-color: #66fcf1;
+  color: #1f2833;
+  padding: 10px 20px;
+  font-size: 15px;
+  margin-left: 10px;
+  border: none;
+  border-top-left-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+.register:hover {
+  background-color: #1f2833;
+  color: #fff;
+  border: 1px solid #45a29e;
+}
