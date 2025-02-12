@@ -16,32 +16,277 @@
     display: flex;
    
   }
+
+  /*MOBILE MAIN PAGE STYLING*/
+  main {
+    padding: 30px;
+  }
+  .parent-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .first-container {
+    width: 100%;
+    text-align: center;
+  }
+  .second-container {
+    width: 100%;
+    padding: 20px;
+  }
+  /* STYLING FOR THE 3 DIVS*/
+  .second-parent-container {
+    flex-direction: column;
+  }
+  .sports-betting,
+  .online-virtual,
+  .casino {
+    width: 75%;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+/*THIRD PARENT CONTAINER STYLING*/
+.second-third-container {
+  flex-direction: column;
+  padding: 30px;
+}
+.lucky-spin-roulette  {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/*FOURTH PARENT CONTAINER*/
+.first-fourth-container {
+  text-align: center;
+  padding: 30px;
+ }
+.second-fourth-container{
+  flex-direction: column;
+  padding: 30px;
+ }
+ .bank-details {
+  width: 100%;
+  margin-bottom: 30px;
+ }
+
+ /* THIRD CONTAINER OF THE FOURTH CURRENT CONTAINER*/
+ .third-fourth-container {
+  flex-direction: column;
+  padding: 30px;
+ }
+ .bank-wallets {
+  width: 100%;
+  margin-bottom: 20px;
+ }
+
+ /*FIFTH PARENT CONTAINER*/
+ /*FIRST FIFTH CONTAINER*/
+ .first-fifth-container  {
+  text-align: center;
+  padding: 30px;
+ }
+ /* SECOND FIFTH CONTAINER*/
+ .second-fifth-container {
+  flex-direction: column;
+  padding: 30px;
+ }
+ .managed-services {
+  width: 100%;
+  margin-bottom: 20px;
+ }
+  /*SIXTH PARENT CONTAINER*/
+   /*FIRST SIXTH CONTAINER*/
+   .first-sixth-container {
+    padding: 30px;
+   }
+   .first-sixth-container h1 {
+    margin-bottom: 10px;
+   }
+   /* STYLING FOOTER*/
+   footer {
+    /* flex-direction: column; */
+   }
+   .footer-details {
+    flex-direction: column;
+   }
+   .organization p,
+   .useful p,
+   .Opening-hours p,
+   .contact-us p {
+    font-size: 16px;
+    /* height: 200px; */
+   }
+   .organization,
+   .useful,
+   .Opening-hours,
+   .contact-us {
+    width: 100%;
+    border-bottom: 1px solid #7f8183;
+    border-right: none;
+   }
+   .org-img {
+    max-height: 80px;
+    max-width: 80px;
+    border: 2px solid #66fcf1;
+    border-radius: 75px;
+  }
 }
 
 @media (max-width: 600px) {
-    /*HEADER STYLINGS*/
-  .header-container {
-    height: 110px;
-  }
-  .kh-logo {
-    max-width: 80px;
-    max-height: 80px
-  }
+  /*HEADER STYLINGS*/
+.header-container {
+  height: 110px;
+}
+.kh-logo {
+  max-width: 80px;
+  max-height: 80px
+}
 
-  .login-buttons {
-    width: 30%;
-  }
+.login-buttons {
+  width: 30%;
+}
 
-  .login,
-  .register {
-    padding: 3px 8px;
-  }
+.login,
+.register {
+  padding: 3px 8px;
+}
 
-  /* MOBILE BAR STYLING*/
-  .mobile-nav-bar {
-    height: 60px;
+/* MOBILE BAR STYLING*/
+.mobile-nav-bar {
+  height: 60px;
+}
+.mobile-nav-bar a {
+font-size: 11px;
+}
+
+ /* MOBILE BAR STYLING*/
+ main {
+  padding: 0;
+ }
+
+ .parent-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+ .first-container {
+  width: 100%;
+  text-align: center;
+}
+
+ .first-container p:first-child {
+  font-size: 20px;
+  margin-bottom: 5px;
+ }
+
+ .first-container p:nth-of-type(2) {
+  font-size: 14px;
+ }
+ br {
+  display: none;
+ }
+
+ .second-container {
+  width: 100%;
+ }
+
+ .second-container img {
+  width: 450px;
+ }
+
+ .read-more,
+ .contact {
+  padding: 10px 20px;
+ }
+
+/*THIRD PARENT CONTAINER STYLING*/
+.first-third-container {
+  padding: 20px;
+}
+ .first-third-container h1  {
+  font-size: 30px;
+ }
+
+ /*FOURTH PARENT CONTAINER*/
+ .first-fourth-container {
+  text-align: center;
+ }
+ .first-fourth-container h1 {
+  font-size: 30px;
+ }
+ /*FIFTH PARENT CONTAINER*/
+ /*FIRST FIFTH CONTAINER*/
+ .first-fifth-container h1 {
+  font-size: 30px;
+ }
+
+  /*SIXTH PARENT CONTAINER*/
+ /*FIRST SIXTH CONTAINER*/
+ .first-sixth-container h1 {
+  font-size: 30px;
+ }
+ /*SECOND  AND THIRD SIXTH CONTAINER*/
+ .second-sixth-container,
+ .third-sixth-container {
+  height: 180px;
+ }
+ .item {
+  width: 220px;
+  height: 170px;
+  right: max( calc(220px * 6), 100%);
+  padding: 15px;
+ }
+ @keyframes scrollright {
+  to {
+    right: -220px;
   }
-  .mobile-nav-bar a {
-  font-size: 11px;
+}
+.box {
+  width: 230px;
+  height: 170px;
+  left: max( calc(220px * 6), 100%);
+  padding: 15px;
+}
+@keyframes scrolleft {
+  to {
+    left: -220px;
   }
+}
+.owner {
+  margin-bottom: 10px;
+}
+.owner-img {
+  margin-right: 10px;
+}
+.own-img {
+  width: 45px;
+}
+.owner-details p:first-child {
+  font-size: 15px;
+  font-weight: 300;
+}
+.owner-details p:nth-child(2) {
+  font-size: 12px;
+}
+.owner-p {
+  font-size: 13px;
+}
+   /* STYLING FOOTER*/ 
+   .organization-details p span  {
+    display: none;
+   }
+.organization-details h6,
+.useful h6,
+.Opening-hours h6,
+.contact-us h6 {
+  font-size: 18px;
+}
+   .org-img {
+    max-width: 50px;
+    max-height: 50px;
+   }
 }
