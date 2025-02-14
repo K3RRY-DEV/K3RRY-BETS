@@ -226,12 +226,12 @@ main {
 }
 .second-parent-container div {
   opacity: 0;
-  transform: translateX(-100%);
+  transform: translateY(100%);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 .second-parent-container div.visible {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 .sports-betting p:first-child, 
 .online-virtual p:first-child, 
@@ -301,6 +301,7 @@ main {
 }
 
 /*THIRD PARENT CONTAINER STYLING*/
+/*THIRD FIRST CONTAINER STYLING*/
 .third-parent-container {
   margin-bottom: 200px;
 }
@@ -319,9 +320,30 @@ main {
 .first-third-container p {
   color: #7f8183;
 }
+.first-third-container {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.first-third-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*THIRD SECOND CONTAINER STYLING*/
 .second-third-container {
   display: flex;
   justify-content: space-between;
+}
+
+.second-third-container {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.second-third-container.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 .lucky-spin-roulette {
   padding: 26px;
@@ -391,6 +413,19 @@ main {
 .first-fourth-container {
   margin-bottom: 40px;
 }
+.first-fourth-container,
+.first-fifth-container ,
+.first-sixth-container{
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.first-fourth-container.visible,
+.first-fifth-container.visible,
+.first-sixth-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 .first-fourth-container h1 {
   color: #fff;
   font-size: 45px;
@@ -408,6 +443,17 @@ main {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+}
+.second-fourth-container div,
+.second-fifth-container div {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.second-fourth-container div.visible,
+.second-fifth-container div.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 .bank-details {
   width: 32%;
@@ -468,6 +514,20 @@ main {
   display: flex;
   justify-content: space-between;
   margin-bottom: 200px;
+}
+.third-fourth-container div:first-child {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.third-fourth-container div:nth-child(2) {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.third-fourth-container div.visible {
+  opacity: 1;
+  transform: translateX(0);
 }
 .bank-wallets {
   width: 49%;
