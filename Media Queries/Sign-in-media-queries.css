@@ -1,0 +1,81 @@
+@media (max-width: 993px) {
+  .sign-in-container {
+    flex-direction: column;
+    height: 40rem;
+    width: 31.25rem;
+  }
+
+  .sign-in-logo {
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 0.94rem;
+    border-top-right-radius: 0.94rem;
+  }
+  .sign-in-details {
+    width: 100%;
+    height: 70%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.94rem;
+    border-bottom-right-radius: 0.94rem;
+  }
+  .sign-in-image {
+    width: 9rem;
+    border-radius: 6rem;
+  }
+  .form-group label {
+    left: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sign-in-container {
+    width: 90%;
+    height: 35rem;
+  }
+  
+  .form-group input {
+    width: 80%;
+  }
+  
+  .sign-in-button {
+    width: 80%;
+  }
+  .sign-in-image {
+    width: 8rem;
+    border-radius: 6rem;
+  }
+  .form-group label {
+    left: 170px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sign-in-container {
+    height: 30rem;
+  }
+  
+  .sign-in-logo {
+    height: 25%;
+  }
+  
+  .sign-in-details {
+    height: 75%;
+  }
+  .sign-in-image {
+    width: 6rem;
+    border-radius: 6rem;
+  }
+  
+  .form-group input {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+  
+  .sign-in-button {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+  .form-group label {
+    left: 40px;
+  }
+}

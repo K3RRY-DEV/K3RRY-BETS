@@ -1,0 +1,76 @@
+@media (max-width: 993px) {
+  .login-container {
+    flex-direction: column;
+    height: 40rem;
+    width: 31.25rem;
+  }
+
+  .login-logo {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 0.94rem;
+    border-top-right-radius: 0.94rem;
+  }
+  .login-details {
+    width: 100%;
+    height: 50%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.94rem;
+    border-bottom-right-radius: 0.94rem;
+  }
+  .login-image {
+    width: 12rem;
+    border-radius: 6rem;
+  }
+  .form-group label {
+    left: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    width: 90%;
+    height: 35rem;
+  }
+  
+  .form-group input {
+    width: 80%;
+  }
+  
+  .sign-in-button {
+    width: 80%;
+  }
+  .form-group label {
+    left: 170px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    height: 30rem;
+  }
+  
+  .login-logo {
+    height: 50%;
+  }
+  
+  .login-details {
+    height: 50%;
+  }
+  .login-image {
+    width: 9rem;
+    border-radius: 6rem;
+  }
+  .form-group input {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+  
+  .login-button {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+  .form-group label {
+    left: 40px;
+  }
+}
