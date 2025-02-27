@@ -13,7 +13,7 @@ body {
   justify-content: center;
 }
 
-.sign-in-container {
+.sign-up-container {
   display: flex;
   width: 100%;
   max-width: 50rem;
@@ -23,7 +23,7 @@ body {
   margin: 0 auto;
 }
 
-.sign-in-logo {
+.sign-up-logo {
   width: 35%;
   background-color: #000;
   display: flex;
@@ -32,7 +32,7 @@ body {
   border-top-left-radius: 0.94rem;
   border-bottom-left-radius: 0.94rem;
 }
-.sign-in-details {
+.sign-up-details {
   width: 65%;
   background-color: #fff;
   border-top-right-radius: 0.94rem;
@@ -41,14 +41,14 @@ body {
   justify-content: center;
   align-items: center;
 }
-.sign-in-image {
+.sign-up-image {
   width: 6.25rem;
   border: 2px solid #66fcf1;
   border-radius: 75px;
   transition: border-color 0.3s;
   cursor: pointer;
 }
-.sign-in-image:hover {
+.sign-up-image:hover {
   border-color: #fff;
 }
 .form-details {
@@ -93,7 +93,7 @@ body {
   font-size: 0.8rem;
   color: #007bff;
 }
-.sign-in-button {
+.sign-up-button {
   width: 100%;
   max-width: 25rem;
   padding: 10px;
@@ -108,7 +108,7 @@ body {
 }
 
 
-.sign-in-button:hover {
+.sign-up-button:hover {
   background-color: #45a29e;
   color: #fff;
 }
