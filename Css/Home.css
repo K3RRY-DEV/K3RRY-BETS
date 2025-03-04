@@ -6,7 +6,7 @@
 }
 body {
   /* height:1000vh; */
-  background:rgb(11, 12, 16);
+  background: rgb(11, 12, 16);
   /* position: relative; */
   padding-top: 150px;
 }
@@ -14,7 +14,7 @@ body {
 /*HEADER STYLINGS*/
 .header-container {
   height: 130px;
-  background:rgb(11, 12, 16);
+  background: rgb(11, 12, 16);
   padding: 0px 60px;
   display: flex;
   justify-content: space-between;
@@ -181,7 +181,7 @@ main {
 .first-container p span:nth-of-type(2) {
   color: #66fcf1;
 }
-.first-container p:nth-of-type(2)  {
+.first-container p:nth-of-type(2) {
   font-weight: bold;
   color: #7f8183;
   margin-bottom: 40px;
@@ -200,7 +200,7 @@ main {
   background-color: #66fcf1;
   transition: background-color 0.5s, color 0.5s;
 }
-.read-more:hover{
+.read-more:hover {
   background-color: #1f2833;
   color: #fff;
   border: 1px solid #66fcf1;
@@ -233,8 +233,8 @@ main {
   opacity: 1;
   transform: translateY(0);
 }
-.sports-betting p:first-child, 
-.online-virtual p:first-child, 
+.sports-betting p:first-child,
+.online-virtual p:first-child,
 .casino p:first-child {
   margin-top: 80px;
   margin-bottom: 20px;
@@ -278,25 +278,28 @@ main {
   cursor: pointer;
 }
 .sports-betting {
-  background-image: url(/Main-section-images/bet-2.png);
+  background-image: url(../Main-section-images/bet-2.png);
   background-size: cover;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, border 0.3s ease-in-out,
+    color 0.3s ease-in-out;
 }
 .online-virtual {
-  background-image: url(/Main-section-images/bet-1.png);
+  background-image: url(../Main-section-images/bet-1.png);
   background-size: cover;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, border 0.3s ease-in-out,
+    color 0.3s ease-in-out;
 }
 .casino {
-  background-image: url(/Main-section-images/bet-3.png);
+  background-image: url(../Main-section-images/bet-3.png);
   background-size: cover;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, border 0.3s ease-in-out,
+    color 0.3s ease-in-out;
 }
 .sports-betting:hover,
 .online-virtual:hover,
 .casino:hover {
-  border:1px solid #66fcf1;
-  transform: scale(1.1);
+  border: 1px solid #66fcf1;
+  transform: scale(1.1) !important;
   color: #66fcf1;
 }
 
@@ -359,8 +362,7 @@ main {
   box-shadow: 0 0 3px 1px #66fcf1;
   transform: scale(1.1);
 }
-.lucky-spin-roulette:hover 
-.lucky-spin-roulette-image {
+.lucky-spin-roulette:hover .lucky-spin-roulette-image {
   border-bottom: 1px solid #7f8183;
   margin-bottom: 20px;
 }
@@ -414,8 +416,8 @@ main {
   margin-bottom: 40px;
 }
 .first-fourth-container,
-.first-fifth-container ,
-.first-sixth-container{
+.first-fifth-container,
+.first-sixth-container {
   opacity: 0;
   transform: translateY(100%);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
@@ -460,7 +462,7 @@ main {
   height: 40%;
   border: 1px solid #7f8183;
   border-radius: 15px;
-  box-shadow:  0 0 3px 1px #7f8183;
+  box-shadow: 0 0 3px 1px #7f8183;
   padding: 25px;
   cursor: pointer;
   /* transition: transform 0.5s ease-in-out; */
@@ -534,7 +536,7 @@ main {
   height: 40%;
   border: 1px solid #7f8183;
   border-radius: 15px;
-  box-shadow:  0 0 3px 1px #7f8183;
+  box-shadow: 0 0 3px 1px #7f8183;
   padding: 25px;
   cursor: pointer;
   /* transition: transform 0.5s ease-in-out; */
@@ -607,11 +609,11 @@ main {
   border: 1px solid #7f8183;
   border-radius: 15px;
   text-align: center;
-  box-shadow:  0 0 3px 1px #7f8183;
+  box-shadow: 0 0 3px 1px #7f8183;
   cursor: pointer;
 }
 .managed-services:hover {
-  box-shadow:  0 0 3px 1px #66fcf1;
+  box-shadow: 0 0 3px 1px #66fcf1;
 }
 .managed-services:hover h2 {
   color: #e7be05;
@@ -651,7 +653,7 @@ main {
 }
 
 /*SECOND SIXTH CONTAINER*/
-.second-sixth-container{
+.second-sixth-container {
   display: flex;
   align-items: center;
   width: 90%;
@@ -709,8 +711,8 @@ main {
   flex-direction: column;
   justify-content: center;
   border: 1px solid #7f8183;
-  box-shadow:  0 0 3px 1px #7f8183;
-  right: max( calc(300px * 6), 100%);
+  box-shadow: 0 0 3px 1px #7f8183;
+  right: max(calc(300px * 6), 100%);
   animation-name: scrollright;
   animation-duration: 30s;
   animation-timing-function: linear;
@@ -741,8 +743,8 @@ main {
   animation-delay: calc(30s / 6 * (6 - 6) * -1);
 }
 
- /*THIRD SIXTH CONTAINER*/
- .third-sixth-container{
+/*THIRD SIXTH CONTAINER*/
+.third-sixth-container {
   display: flex;
   align-items: center;
   width: 90%;
@@ -775,8 +777,8 @@ main {
   flex-direction: column;
   justify-content: center;
   border: 1px solid #7f8183;
-  box-shadow:  0 0 3px 1px #7f8183;
-  left: max( calc(300px * 6), 100%);
+  box-shadow: 0 0 3px 1px #7f8183;
+  left: max(calc(300px * 6), 100%);
   animation-name: scrollleft;
   animation-duration: 30s;
   animation-timing-function: linear;

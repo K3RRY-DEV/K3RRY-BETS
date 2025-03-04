@@ -55,3 +55,16 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("resize", checkVisibility); // Also check on resize
   checkVisibility(); // Initial check in case elements are already visible
 });
+/* BUTTONS TAKES ME TO THE SIGN UP PAGE WHEN CLICKED*/
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('signIn').addEventListener('click', function() {
+    window.location.href = 'Html/Login.html';
+  });
+})
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('signUp').addEventListener('click', function() {
+    window.location.href = 'Html/Sign-up.html';
+  });
+})
