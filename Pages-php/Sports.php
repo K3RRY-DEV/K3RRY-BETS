@@ -9,8 +9,9 @@
       href="../favicon image/KH.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="../../K3RRY-BETS/Css/Mobile-nav-bar.css">">
     <link rel="stylesheet" href="../Css/Sports.css" />
-    <link rel="stylesheet" href="../Css/Sports-media-queries.css" />
+    <link rel="stylesheet" href="../Media Queries/Sports-media-queries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,10 +28,21 @@
   </head>
   <body>
     <header>
+      <div class="header-mobile-container">
+        <span class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </span>
+        <span class="mobile-logo">
+          <img src="../Header image/Kh-Logo-7.png" class="" />
+        </span>
+        <span class="account-balance">
+          <a href="#"><p>NGN 1,000</p></a>
+        </span>
+      </div>
       <div class="header1">
         <div class="header1-first-container">
           <span>
-            <img src="../Header image/Kh-Logo-7.png" class="">
+            <img src="../Header image/Kh-Logo-7.png" class="" />
             <p>K3RRY BETS HD</p>
           </span>
         </div>
@@ -44,7 +56,7 @@
       </div>
 
       <div class="header2">
-        <a href="../Home.html"><p>Home</p></a>
+        <a href="../Home.php"><p>Home</p></a>
         <a href="#"><p>Games</p></a>
         <a href="#"><p>Live Betting</p></a>
         <a href="#"><p>Virtual</p></a>
@@ -67,10 +79,12 @@
         <a href="#"><p>Ice Hockey</p></a>
         <a href="#"><p>HandBall</p></a>
       </div>
+
+      <?php include('../../K3RRY-BETS/Html/Mobile-nav-bar.html') ?>
     </header>
 
-    <main>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque facere natus quia amet nobis. Incidunt numquam, provident soluta dolor et rerum vero labore suscipit, fugit dolore dicta.</p>
-    </main>
+    <main></main>
+
+    <script src="../scripts/Mobile-nav-bar.js" defer></script>
   </body>
 </html>

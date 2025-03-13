@@ -32,7 +32,7 @@ body {
   border: 2px solid #66fcf1;
   border-radius: 75px;
 }
-.mobile-nav-bar {
+/* .mobile-nav-bar {
   background-color: #66fcf1;
   height: 80px;
   display: none;
@@ -67,7 +67,7 @@ body {
 }
 .mobile-p {
   margin-top: 8px;
-}
+} */
 .nav-bar {
   width: 50%;
   flex-shrink: 1;

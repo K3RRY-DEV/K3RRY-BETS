@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (password_verify($password, $hashed_password)) {
             // Login successful
             $_SESSION['user_id'] = $id;
-            header("Location: ../Html/Sports.html"); // Redirect to success.html
+            header("Location: ../Pages-php/Sports.php"); // Redirect to success.html
             exit();
         } else {
             echo "Incorrect password"; // Basic error

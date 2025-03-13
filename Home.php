@@ -9,6 +9,7 @@
       href="favicon image/KH.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="../K3RRY-BETS/Css/Mobile-nav-bar.css">
     <link rel="stylesheet" href="Css/Home.css" />
     <link rel="stylesheet" href="Media Queries/Home-media-queries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,7 +34,7 @@
         <div class="nav-bar">
           <ul>
             <a href=""><li>Home</li></a>
-            <a href="Html/Sports.html"><li>Sports</li></a>
+            <a href="Pages-php/Sports.php"><li>Sports</li></a>
             <a href=""><li>Virtual</li></a>
             <a href=""><li>Contact</li></a>
             <a href=""><li>About</li></a>
@@ -46,38 +47,7 @@
           <button class="register" id="signUp">Register</button>
         </div>
       </section>
-      <div class="mobile-nav-bar">
-        <a href="#">
-          <span class="mobile-span">
-            <i class="fa-solid fa-house"></i>
-            <p class="mobile-p">Home</p>
-          </span>
-        </a>
-        <a href="/Html/Sports.html">
-          <span class="mobile-span">
-            <i class="fa-solid fa-futbol"></i>
-            <p class="mobile-p">Sports</p>
-          </span>
-        </a>
-        <a href="#">
-          <span class="mobile-span">
-            <i class="fa-brands fa-vimeo-v"></i>
-            <p class="mobile-p">Virtual</p>
-          </span>
-        </a>
-        <a href="#">
-          <span class="mobile-span">
-            <i class="fa-solid fa-phone"></i>
-            <p class="mobile-p">Contact</p>
-          </span>
-        </a>
-        <a href="#">
-          <span class="mobile-span">
-            <i class="fa-solid fa-pen"></i>
-            <p class="mobile-p">About</p>
-          </span>
-        </a>
-      </div>
+      <?php include('../K3RRY-BETS/Html/Mobile-nav-bar.html') ?>
     </header>
 
     <main>
