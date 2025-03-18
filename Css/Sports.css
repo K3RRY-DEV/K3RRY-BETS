@@ -9,205 +9,133 @@ body {
   background:rgb(11, 12, 16);
   position: relative;
   /* height: 1000vh; */
-  padding-top: 156.56px;
-}
-/* HEADER STYLING*/
-/* HEADER1 STYLING */
-header {
-  background-color: rgb(11, 12, 16);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 156.56px;
-  z-index: 1000;
-}
-.header-mobile-container {
-  color: #c5c6c7;
-  padding: 0.31rem 1rem;
-  display: none;
-  justify-content: space-between;
-  align-items: center;
-}
-.header-mobile-container span {
-  width: 33.3%;
-  display: flex;
-  align-items: center;
-}
-.header-mobile-container .search-bar {
-  justify-content: flex-start;
-}
-.header-mobile-container .account-balance {
-  justify-content: flex-end;
-}
-.header-mobile-container .mobile-logo {
-  justify-content: center;
-}
-.header-mobile-container .mobile-logo img {
-  width: 4.5rem;
-  height: 4.5rem;
-  border: 2px solid #66fcf1;
-  border-radius: 75px;
-}
-.header-mobile-container .account-balance a {
-  color: #c5c6c7;
-  text-decoration: none;
-}
-.header1 {
-  display: flex;
-  margin-bottom: 5px;
-  padding: 0.3rem 3.75rem;
-}
-.header1-first-container {
-  width: 50%;
-  font-size: 10.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-}
-.header1-first-container span p {
-  font-size: 1.7rem;
-  font-weight: bold;
-  /* -webkit-text-stroke: 1px #66fcf1; */
-    text-shadow:
-      -1px -1px 0 #66fcf1,
-      1px -1px 0 #66fcf1,
-      -1px 1px 0 #66fcf1,
-      1px 1px 0 #66fcf1;
-}
-.header1-first-container span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-}
-.header1-first-container span img {
-  width: 3.5rem;
-  height: 3.5rem;
-  margin-right: 0.5rem;
-  border: 2px solid #66fcf1;
-  border-radius: 75px;
-}
-.header1-second-container {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.header1-second-container a {
-  text-decoration: none;
-  color: #c5c6c7;
-}
-.header1-second-container P {
-  font-size: 0.9rem;
-  padding: 0 10px;
-  border-right: 1px solid #c5c6c7;
-}
-/* HEADER2 STYLING */
-.header2 {
-  /* background-color: yellow; */
-  display: flex;
-  justify-content: space-between;
-  height: 40px;
-  padding: 0rem 3.75rem;
-  margin-bottom: 5px;
-  font-size: 0.9rem;
-  font-weight: 500;
-}
-.header2 p {
-  display: flex;
-  align-items: center;
-  padding: 0rem 0.5rem;
-  border-radius: 0.31rem;
-  height: 100%;
-  transition: color 0.5s ease, background-color 0.5s ease;
-  cursor: pointer;
-}
-.header2 p:hover {
-  color: #000;
-  background-color: #66fcf1;
-}
-.header2 a,
-.header3 a {
-  text-decoration: none;
-  color: #c5c6c7;
-}
-
-/* HEADER3 STYLING */
-.header3 {
-  background-color: #66fcf1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0rem 4rem;
-  font-size: 0.8rem;
-  font-size: 0.9rem;
-  font-weight: 400;
-}
-.header3 p {
-  padding: 0.4rem 0rem;
-  height: 100%;
-}
-.header3 a {
-  color: #000;
-  text-decoration: underline;
-  text-decoration-color: transparent;
-  text-underline-offset: 0em;
-  text-decoration-thickness: 0.05em;
-  transition: text-decoration-color 0.5s ease, text-underline-offset 0.5s ease, text-decoration-thickness 0.5s ease;
-  cursor: pointer;
-}
-.header3 a:hover {
-  text-decoration-color: #000;
-  text-underline-offset: 0.7em;
-  text-decoration-thickness: 0.15em;
-}
-.header3 a:hover:active {
-  text-decoration-color: #000;
-  text-underline-offset: 0.7em;
-  text-decoration-thickness: 0.15em;
-}
-
-/*MOBILE-NAV-BAR STLYLING*/
-/* .mobile-nav-bar {
-  background-color: #66fcf1;
-  height: 80px;
-  display: none;
-  align-items: center;
-  justify-content: space-around;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1000;
-}
-.mobile-nav-bar a {
-  height: 100%;
-  display: flex;
-  font-size: 20px;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  padding: 0px 14px;
-  color: #1f2833;
-  cursor: pointer;
-}
-.mobile-nav-bar a:hover {
-  background-color: #45a29e;
-  font-weight: bold;
-}
-.mobile-span {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
-.mobile-p {
-  margin-top: 8px;
+  padding-top: 9.785rem;
 }
 
 /* MAIN STYLING */
-main {
-  background-color: red;
+
+/* COMPETITIONS GAMES LIVES */
+.tab-container-mobile {
+  /* background-color: yellow; */
+  width: 100%; /* Adjust as needed */
+  /* padding: 30px; */
+  display: none;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid #c5c6c7; */
+}
+
+.tab-button {
+  padding: 10px 20px;
+  width: calc(100% / 3);
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  color: #c5c6c7;
+  cursor: pointer;
+  position: relative;
+  /* transition: background-color 0.5s ease; */
+  transition: transform 0.2 ease, box-shadow 0.2 ease;
+}
+
+.tab-button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  height: 2px;
+  background-color: #66fcf1; /* Active tab underline */
+  opacity: 0;
+  transform: scaleX(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  /* border-radius: 2px; */
+}
+
+.tab-button.active::after,
+.tab-button:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.tab-button:hover {
+  transform: translateY(-3px);
+  box-shadow:  0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.tab-content {
+  /* margin-top: 20px; */
+  padding: 30px;
+}
+
+.tab-panel {
+  display: none; /* Hide all panels by default */
+}
+
+.tab-panel.active {
+  display: block; /* Show active panel */
+}
+
+/* COMPETITIONS STYLING */
+/* FOOTBALL STYLING */
+
+.sport-item {
+  color: #fff;
+}
+
+.league-list, .sub-league-list {
+  overflow: hidden;
+  list-style-type: none;
+  padding-left: 20px;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.sport-title .fa-solid, .league-title .fa-solid {
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-caret-down {
+  transform: rotate(5deg);
+}
+.league-list.show, .sub-league-list.show {
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sport-title, .league-title {
+  cursor: pointer;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sport-title {
+  display: flex;
+  align-items: center;
+}
+
+
+.league-title,
+.comp-list {
+  display: flex;
+  align-items: center;
+}
+
+ .country-flags,
+ .league-logo {
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 10px;
+}
+
+.sub-league-list {
+  padding-left: 20px; /* Indent sub-leagues further */
 }

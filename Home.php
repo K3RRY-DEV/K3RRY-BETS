@@ -47,7 +47,7 @@
           <button class="register" id="signUp">Register</button>
         </div>
       </section>
-      <?php include('../K3RRY-BETS/Html/Mobile-nav-bar.html') ?>
+      <?php include('../K3RRY-BETS/Nav-bar/Mobile-nav-bar.html') ?>
     </header>
 
     <main>

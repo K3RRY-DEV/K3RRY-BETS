@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background:rgb(11, 12, 16);
+  position: relative;
+
+  padding-top: 9.785rem;
+}
+
+
+
