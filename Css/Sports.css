@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@3.3.1/css/all/all.min.css');
+
 *{
   margin: 0;
   padding: 0;
@@ -8,24 +10,21 @@
 body {
   background:rgb(11, 12, 16);
   position: relative;
-  /* height: 1000vh; */
   padding-top: 9.785rem;
+  overflow: hidden;
 }
 
 /* MAIN STYLING */
-
+/* MOBILE SCREEN */
 /* COMPETITIONS GAMES LIVES */
 .tab-container-mobile {
-  /* background-color: yellow; */
   width: 100%; /* Adjust as needed */
-  /* padding: 30px; */
   display: none;
 }
 
 .tabs {
   display: flex;
   align-items: center;
-  /* border-bottom: 1px solid #c5c6c7; */
 }
 
 .tab-button {
@@ -37,7 +36,6 @@ body {
   color: #c5c6c7;
   cursor: pointer;
   position: relative;
-  /* transition: background-color 0.5s ease; */
   transition: transform 0.2 ease, box-shadow 0.2 ease;
 }
 
@@ -52,7 +50,6 @@ body {
   opacity: 0;
   transform: scaleX(0);
   transition: opacity 0.5s ease, transform 0.5s ease;
-  /* border-radius: 2px; */
 }
 
 .tab-button.active::after,
@@ -67,7 +64,6 @@ body {
 }
 
 .tab-content {
-  /* margin-top: 20px; */
   padding: 30px;
 }
 
@@ -81,7 +77,6 @@ body {
 
 /* COMPETITIONS STYLING */
 /* FOOTBALL STYLING */
-
 .sport-item {
   color: #fff;
 }
@@ -94,6 +89,10 @@ body {
   padding-top: 0;
   padding-bottom: 0;
   transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+.league-list {
+  /* overflow-y: auto;
+  max-height: calc(100vh - 100px); */
 }
 
 .sport-title .fa-solid, .league-title .fa-solid {
@@ -110,15 +109,47 @@ body {
   padding-bottom: 10px;
 }
 
-.sport-title, .league-title {
-  cursor: pointer;
-  padding: 5px;
-  border-bottom: 1px solid #ccc;
-}
-
-.sport-title {
+.sport-title,
+.league-title {
+  background-color: #1f2833;
+  color: #c5c6c7;
+  font-weight: 500;
+  padding: 0.63rem;
   display: flex;
   align-items: center;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 0.3125rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s ease-in-out, background-image 0.3s ease-in-out;
+  cursor: pointer;
+}
+.sport-title.active,
+.league-title.active {
+  background: linear-gradient(145deg, #52c7c0, #1f2833);
+  color: #1f2833;
+}
+
+
+
+
+.sport-title:hover,
+.league-title:hover,
+.comp-list:hover {
+  background: linear-gradient(145deg, #52c7c0, #1f2833);
+  color: #1f2833;
+}
+.sport-title svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: #66fcf1;
+  transition: fill 0.2s ease-in-out;
+}
+.sport-title:hover svg {
+  fill: #1f2833;
+}
+.side-sports-bar:not(.collapsed) .sport-title svg {
+  margin-right: 0.63rem;
 }
 
 
@@ -126,6 +157,17 @@ body {
 .comp-list {
   display: flex;
   align-items: center;
+}
+
+.comp-list{
+  font-weight: 400;
+  background-color: #1f2833;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  margin-bottom: 0.3125rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s ease-in-out, background-image 0.3s ease-in-out;
+  cursor: pointer;
 }
 
  .country-flags,
@@ -139,3 +181,64 @@ body {
 .sub-league-list {
   padding-left: 20px; /* Indent sub-leagues further */
 }
+
+/* DESKTOP SIDE-NAV STYLING */
+.sports-desktop-container {
+  display: flex;
+  color: #c5c6c7;
+  position: fixed;
+  top: 9.785rem;
+  left: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.side-sports-bar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 15.625rem;
+  background-color: #1f2833;
+  transition: width 0.5s ease-in-out;
+  padding: 0.63rem;
+}
+.side-sports-bar.collapsed {
+  width: 3.125rem;
+}
+.side-sports-bar.collapsed .sport-title span {
+  display: none;
+}
+.sports-toggle-btn {
+  width: 100%;
+  background-color: #66fcf1;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.sports-toggle-btn:hover {
+  background-color: #52c7c0;
+}
+.sports-content {
+  height: 100vh;
+  /* background-color: red; */
+  overflow-y: auto;
+}
+.sports-content2 {
+  color: #fff;
+  flex-grow: 1;
+  padding: 1.25rem;
+  transition: margin-left 0.3s ease-in-out;
+}
+.side-sports-bar.collapsed + .sports-content2 {
+  margin-left: 3.125rem;
+}
+.side-sports-bar.collapsed .sport-title {
+  display: flex;
+  justify-content: center;
+}
+

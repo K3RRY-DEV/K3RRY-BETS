@@ -43,7 +43,9 @@
         </div>
         <div class="tab-content">
             <div class="tab-panel active" id="competitions">
-            <div class="sports-container js-sports-container"></div>
+            <div class="sports-container js-sports-container">
+               <!-- NAVIGATION CONTENTS WAS GENERATED WITH JAVASCRIPT -->
+            </div>
             </div>
             <div class="tab-panel" id="games">
                 <h2>Games Content</h2>
@@ -55,8 +57,23 @@
             </div>
         </div>
     </div>
+
+
+        
+    <div class="sports-desktop-container js-sports-desktop-container">
+      <!-- COLLAPSBLE SIDE-BAR FOR DESKTOP SCREENS  -->
+      <div class="side-sports-bar">
+        <button class="sports-toggle-btn"><i class="fi fi-br-align-justify"></i></button>
+        <div class="sports-content"></div>
+      </div>
+
+      <div class="sports-content2">
+      <h1>I LOVE CODING</h1>
+    </div>
+    </div>
     </main>
 
     <script type="module" src="../scripts/Sports.js"></script>
   </body>
 </html>
+

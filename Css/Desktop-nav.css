@@ -111,6 +111,11 @@ header {
   transition: color 0.5s ease, background-color 0.5s ease;
   cursor: pointer;
 }
+.header2-link.active {
+  color: #000;
+  background-color: #66fcf1;
+  border-radius: 0.31rem;
+}
 .header2 p:hover {
   color: #000;
   background-color: #66fcf1;
@@ -157,12 +162,12 @@ header {
   transform: scaleX(0);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
-.header3 a:hover {
+.header3-link.active  {
   text-decoration-color: #000;
   text-underline-offset: 0.7em;
   text-decoration-thickness: 0.15em;
 }
-.header3 a:hover:active::after {
+.header3 a:hover {
   text-decoration-color: #000;
   text-underline-offset: 0.7em;
   text-decoration-thickness: 0.15em;

@@ -35,6 +35,10 @@
     }
 
     /* MAIN STYLING */
+    /*MOBILE-NAV STYLINGS*/
+    .sports-desktop-container {
+      display: none;
+    } 
     /* COMPETITIONS GAMES LIVES */
   .tab-container-mobile {
     display: block;
